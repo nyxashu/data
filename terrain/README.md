@@ -1,22 +1,33 @@
-The data used in the 2003 report "ISPRS Comparison of Filters" is presented
-here to aid in the development and testing of PCL-based filters. For more on
-the data and the study itself, please see
-http://www.itc.nl/isprswgIII-3/filtertest/ and the results of the test as
-published in
+**ISPRS Comparison of Filters - 2003 Report Data**<br>
+<br>
 
-Sithole, G. and Vosselman, G. (2004) Experimental comparison of filter
-algorithms for bare - earth extraction from airborne laser scanning point
-clouds. ISPRS Journal of Photogrammetry and Remote Sensing 59 (1-2), 85-101.
+This dataset is made available to support the development and testing of PCL-based filters. <br>
+<br>
+The data originates from the 2003 report "ISPRS Comparison of Filters" and has been modified for this purpose. For detailed information on the original study and the data, please refer to the following resources:<br>
+**ISPRS Filter Test Overview**<br>
+<br>
+**Reference Paper**: <br>
+<br>
+Sithole, G. and Vosselman, G. (2004). Experimental comparison of filter algorithms for bare-earth extraction from airborne laser scanning point clouds. ISPRS Journal of Photogrammetry and Remote Sensing, 59(1-2), 85-101. DOI: 10.1016/j.isprsjprs.2004.05.004<br>
+<br.
+**Data Modifications**<br>
+<br>
+The dataset includes test data for eight sites, each of which has undergone the following modifications:<br>
+<br>
+**Projection**: All data has been reprojected into UTM Zone 32U.<br>
+<br>
+**Format Conversion:**<br>
+<br>
+Original data was converted from ASCII format to LAS.<br>
+<br>
+Subsequently, LAS files were converted to PCD format.<br.
+<br>
+**Note:** In the PCD version, there is no distinction between first and last returns.<br.
+<br>
+**Reference Datasets**<br>
+<br>
+For each site, two versions of the reference dataset are provided:
 
-http://dx.doi.org/10.1016/j.isprsjprs.2004.05.004
-
-The data in this directory has been altered from its original form.
-
-Specifically, the test data for each of the eight sites has been projected into
-UTM zone 32U and converted first from ASCII to LAS, and then to PCD. The PCD
-version makes no distinction between first and last returns.
-
-For the reference datasets, the data has once again been projected into UTM
-zone 32U and converted from ASCII to LAS to PCD. For each sample, we provide
-two versions: one cloud with all points, and one with only ground returns.
-
+Complete Cloud: Contains all points.
+Ground Returns Only: Includes only ground return points.
+Both reference datasets have been similarly reprojected into UTM Zone 32U and converted from ASCII to LAS to PCD formats.
